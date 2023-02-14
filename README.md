@@ -22,25 +22,25 @@ using static ApiResponse;
 
 Success()
 ```sh
-return Success()
-return Success("Custom Message")
-return Success(data: new { }) // Return Data
-return Success("Custom Message", new { })
+return Success();
+return Success("Custom Message");
+return Success(data: new { }); // Return Data
+return Success("Custom Message", new { });
 ```
 NotFound()
 ```sh
-return NotFound()
-return NotFound("Custom Message")
+return NotFound();
+return NotFound("Custom Message");
 ```
 Filed()
 ```sh
-return Filed("Custom Message")
-return Filed("Custom Message", 000) // Defult is 400
+return Filed("Custom Message");
+return Filed("Custom Message", 000); // Defult is 400
 ```
 ServerError()
 ```sh
-return ServerError()
-return ServerError("Custom Message")
+return ServerError();
+return ServerError("Custom Message");
 ```
 
 #### Returns
